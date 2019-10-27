@@ -34,6 +34,21 @@ public class Calculadora implements ICalculadora {
 		return this.iMatematicas.sumar(n1, n2);
 	}
 
+	@Override
+	public double restar(double n1, double n2) {
+		return this.iMatematicas.restar(n1, n2);
+	}
+
+	@Override
+	public double multiplicar(double n1, double n2) {
+		return this.iMatematicas.multiplicar(n1, n2);
+	}
+
+	@Override
+	public double dividir(double n1, double n2) {
+		return this.iMatematicas.dividir(n1, n2);
+	}
+
 	
 	
 
